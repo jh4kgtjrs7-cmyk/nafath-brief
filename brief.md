@@ -20,10 +20,19 @@ Android enforces application sandboxing, restricting each app to its own resourc
 Resource: Request runtime permissions - https://developer.android.com/training/permissions/requesting
 
 ## Networking
+DNS over HTTPS (DoH) encrypts DNS lookups by carrying them inside HTTPS, so anyone on the network can't read which domains you visit or tamper with the answers, even on public Wi-Fi. However, DoH doesn't hide your lookups from the resolver itself, doesn't conceal the destination IP address from your provider, and doesn't protect page content or devices already infected with malware.
+
+Resource: RFC 8484: DNS Queries over HTTPS (DoH) - https://www.rfc-editor.org/rfc/rfc8484
 
 ## Cybersecurity
+An authentication method is phishing-resistant when attackers cannot trick users into handing over a usable credential, for example through a fake login page. FIDO2/WebAuthn authenticators (security keys, or platform authenticators with biometrics or PIN) and PKI-based methods such as smart cards qualify. SMS or voice codes, app-based one-time passwords, and push notifications, even with number matching, do not qualify, because they remain vulnerable to phishing or related attacks such as SIM swapping and push bombing.
+
+Resource: Implementing Phishing-Resistant MFA (CISA fact sheet) - https://www.cisa.gov/sites/default/files/publications/fact-sheet-implementing-phishing-resistant-mfa-508c.pdf
 
 ## Data
+Where the law applies, the authority acting as controller must obtain and prove explicit consent with clear notice of purpose, apply risk-based safeguards, and obtain a Ministry permit before processing biometric data. It must erase data once its purpose ends, keep processing records, appoint a data protection officer, keep data confidential, notify the Ministry and individuals of breaches, allow human review of automated decisions, and transfer data abroad only under set controls.
+
+Resource: Royal Decree 6/2022 Issuing the Personal Data Protection Law (Consolidated) - https://decree.om/2022/l20220006/
 
 ## Misconception in My Track
 
